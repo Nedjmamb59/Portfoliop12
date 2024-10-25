@@ -41,6 +41,25 @@
     <div class="Nedjma">
         <!--header-->
         <header class="header">
+            <script type="application/ld+json">
+                {
+                  "@context": "https://schema.org",
+                  "@type": "Person",
+                  "name": "Nedjma",
+                  "jobTitle": "Développeuse front-end",
+                  "url": "https://nedjmamb59.github.io/Portfoliop12/", // site
+                  "sameAs": [
+                    "https://twitter.com/votreprofil", // Remplacez par vos profils sociaux
+                    "https://fr.pinterest.com/"
+                  ],
+                  "address": {
+                    "@type": "online everywhere 24/24h , 7j/7",
+                    "addressLocality": "France"
+                  },
+                  "description": "Développeuse front-end basée en France, spécialisée dans le développement web moderne et fonctionnel."
+                }
+                </script>
+                
             <button class="header-menu-btn header-menu-btn-open" aria-label="Ouvrir le menu">
                 <i class="header-menu-btn-icon fas fa-bars"></i>
             </button>
@@ -364,6 +383,7 @@
         </footer>
     <script src="./assets/js/main.js"></script>
     <script>
+        
         Validator('#form-subscribe',{
           onSubmit: function(date){
             console.log(date)
