@@ -193,3 +193,14 @@ const closeModal = document.getElementsByClassName('close')[0];
     }
   
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Cachez le loader après 2 secondes ou lorsque le contenu est chargé
+    const loader = document.querySelector('.loading-spinner');
+    setTimeout(() => {
+        loader.style.display = 'none'; // Cachez le loader
+
+        // Faites défiler vers le haut de la page
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }, 2000); // Changez le temps si nécessaire
+});
