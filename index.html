@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nedjma dev-front</title>
+    <meta name="description" content="Bienvenue sur le portfolio de Nedjma, développeuse front-end basée en France. Découvrez mes projets innovants et mes compétences en développement web.">
+    <meta name="keywords" content="développement web, portfolio, front-end, HTML, CSS, JavaScript, React, freelance">
+    <meta name="author" content="Nedjma">
     <link rel="stylesheet" href="./assets/css/grid.css">
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -27,25 +30,23 @@
     <div class="Nedjma">
         <!--header-->
         <header class="header">
-            <button class="header-menu-btn header-menu-btn-open">
+            <button class="header-menu-btn header-menu-btn-open" aria-label="Ouvrir le menu"></button>
                 <i class="header-menu-btn-icon fas fa-bars"></i>
-            </button>
             <div class="header-menu">
-                <button class="header-menu-btn header-menu-btn-close">
+                <button class="header-menu-btn header-menu-btn-close" aria-label="Fermer le menu"></button>
                     <i class="header-menu-btn-icon header-menu-btn-icon-close fas fa-times"></i>
                 </button>
                 <ul class="header-menu-list">
-                    <li class="header-menu-item">
-                        <a href="#home" class="header-menu-link">Home</a>
-                    </li>
-                    <li class="header-menu-item">
-                        <a href="#portfolio" class="header-menu-link">Portfolio</a>
-                    </li>
-                    <li class="header-menu-item">
-                        <a href="#skills" class="header-menu-link">Skills</a>
-                    </li>
-                    <li class="header-menu-item">
-                        <a href="#contact" class="header-menu-link">Contact</a>
+                    <a href="#home" class="header-menu-link" aria-label="Aller à la section Accueil">Accueil</a>
+            </li>
+            <li class="header-menu-item">
+                <a href="#portfolio" class="header-menu-link" aria-label="Aller à la section Portfolio">Portfolio</a>
+            </li>
+            <li class="header-menu-item">
+                <a href="#skills" class="header-menu-link" aria-label="Aller à la section Compétences">Compétences</a>
+            </li>
+            <li class="header-menu-item">
+                <a href="#contact" class="header-menu-link" aria-label="Aller à la section Contact">Contact</a>
                     </li>
                 </ul>
             </div>
