@@ -1,16 +1,12 @@
+@charset "UTF-8";
 .btn {
-  color: #ffffff;
-  padding: 0.8rem;
-  font-size: 14px;
-  text-transform: uppercase;
-  border-radius: 4px;
-  font-weight: 400;
-  display: block;
-  width: 100%;
-  cursor: pointer;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  background: transparent;
-}
-.btn:hover {
-  background-color: rgba(255, 255, 255, 0.12);
+  display: inline-block; /* Permet de traiter le bouton comme un bloc */
+  text-align: center; /* Centre le texte à l'intérieur du bouton */
+  padding: 10px 20px; /* Ajuste le rembourrage */
+  background-color: #007BFF; /* Couleur de fond (modifiable selon vos préférences) */
+  color: white; /* Couleur du texte */
+  border: none; /* Supprime la bordure */
+  border-radius: 5px; /* Arrondi les coins */
+  cursor: pointer; /* Change le curseur au survol */
+  text-decoration: none; /* Supprime le soulignement */
 }
