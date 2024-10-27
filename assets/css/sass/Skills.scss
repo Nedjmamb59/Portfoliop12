@@ -1,0 +1,48 @@
+/* skills */
+.store {
+    width: 100%;
+    padding: 0 0 60px;
+    background: linear-gradient(180deg, rgba(238, 238, 240, 1) 0%, rgba(243, 243, 244, 1) 70%);
+
+    &-top {
+        position: relative;
+        display: flex;
+        justify-content: center;
+
+        &-img {
+            position: absolute;
+            width: 361px;
+            height: 93px;
+            top: 100px;
+            z-index: 1;
+        }
+    }
+
+    &-top-body {
+        position: relative;
+        top: 14px;
+        width: 70%;
+    }
+
+    &-main {
+        transform: translateY(-24px);
+        max-width: 1120px;
+        margin: 0 auto;
+
+        &-link {
+            display: block;
+            margin-bottom: 24px;
+
+            &:hover {
+                .store-main-img {
+                    transform: scale(0.93);
+                }
+            }
+        }
+
+        &-img {
+            border-radius: 10px;
+            transition: transform ease .2s;
+        }
+    }
+}

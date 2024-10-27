@@ -1,0 +1,52 @@
+.aboutLeft{
+    position: relative;
+}
+.aboutBody{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.aboutHead{
+    position: absolute;
+    top: 0px;
+    left: 21.27%;
+    z-index: 1;
+    width: 59.6%;
+}
+
+.aboutRight{
+    padding-top: 40px;
+    padding-right: 22px;
+}
+.aboutRight h1{
+    font-size: 3.2rem;
+    line-height: 3.6rem;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.aboutRight p{
+    font-size: 1.9rem;
+    line-height: 2.6rem;
+    letter-spacing: 1px;
+}
+.about-social{
+    display: flex;
+    align-items: center;
+}
+
+.about-social-icon{
+    width: 57px;
+    height: 57px;
+    text-align: center;
+    line-height: 57px;
+    font-size: 2.5rem;
+    color: #fff;
+    border-radius: 50%;
+    margin: 30px 15px 0 0;
+    transition: transform ease .2s;
+}
+
+.about-social-icon:hover{
+   transform: scale(1.2);
+}

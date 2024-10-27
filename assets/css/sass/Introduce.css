@@ -1,0 +1,8 @@
+.introduce {
+  background: #f0ced9;
+  background: linear-gradient(180deg, rgb(240, 206, 217) 0%, rgb(244, 214, 222) 100%);
+}
+.introduce .grid.wide {
+  max-width: 100%;
+  width: 90%;
+}

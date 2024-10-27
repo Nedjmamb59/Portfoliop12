@@ -321,7 +321,7 @@
     font-weight: 400;
     letter-spacing: 1px;
 }
-/* store */
+/* skills */
 .store{
     width: 100%;
     padding: 0px 0px 60px 0px;
@@ -363,23 +363,7 @@
     border-radius: 10px;
     transition: transform ease .2s;
 }
-.see-more{
-    margin-top: 20px;
-    display: block;
-    text-align: center;
-    font-size: 3rem;
-    line-height: 3rem;
-    color: #696671;
-    text-decoration-line: underline;
-    text-decoration-style: wavy;
-    text-decoration-color: #696671;
-    text-decoration-thickness: 2px;
-    text-underline-offset: 5px;
-    transition: color ease-in .2s;
-}
-.see-more:hover{
-    color: #f3a6ad;
-}
+
 .bounce2{
     animation-name: bounce2;
     -webkit-animation-name: bounce2;

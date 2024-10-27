@@ -1,0 +1,109 @@
+@charset "UTF-8";
+.foreword {
+  background: #f0ced9;
+  background: linear-gradient(180deg, rgb(244, 214, 222) 100%, rgb(240, 206, 217) 0%);
+  padding-top: 80px;
+  position: relative;
+  overflow: hidden;
+  height: 700px;
+}
+.foreword-content {
+  position: relative;
+  z-index: 100;
+  color: #ffffff;
+  height: calc(100% - var(--heightbg1));
+  max-width: 1100px !important;
+}
+.foreword-content h2 {
+  font-size: 4rem;
+  line-height: 4rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.foreword-content p {
+  font-size: 2rem;
+  line-height: 2.6rem;
+  letter-spacing: 1px;
+}
+.foreword-content a {
+  color: #ffffff;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: #ffffff;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 1px;
+  transition: color ease-in 0.3s, text-decoration-color ease-in 0.3s;
+}
+.foreword-content a:hover {
+  color: #313140;
+  text-decoration-color: #313140;
+}
+.foreword-bg1 {
+  height: var(--heightbg1);
+  width: 100%;
+  top: 0px;
+}
+.foreword-bg2 {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  height: 100%;
+  top: 145px;
+}
+.foreword-heart-img {
+  width: 50px;
+  margin: 0 12px;
+}
+.foreword-img {
+  transform: translateY(-162px);
+}
+
+.tossing {
+  animation-name: tossing;
+  animation-duration: 3.5s;
+  transform-origin: 50% 90%;
+  animation-iteration-count: infinite;
+}
+
+.portfolio {
+  margin: 130px 0 110px;
+}
+.portfolio-box {
+  margin-bottom: 30px;
+  padding: 0 24px;
+}
+.portfolio-link {
+  display: block;
+}
+.portfolio-link:hover .portfolio-box-img {
+  transform: scale(1.05) rotate(5deg);
+}
+.portfolio-item a {
+  color: black; /* Le lien reste noir */
+  text-decoration: none; /* Retire le soulignement par défaut */
+}
+.portfolio-item a:hover {
+  color: plum; /* Le lien devient plum au survol */
+}
+.portfolio-box-img {
+  transition: transform ease 0.2s;
+}
+.portfolio-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px;
+}
+.portfolio-name {
+  font-size: 2.2rem;
+  line-height: 2.4rem;
+  margin-bottom: 4px;
+  font-weight: 400;
+}
+.portfolio-drt {
+  font-size: 1.6rem;
+  line-height: 2rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+}

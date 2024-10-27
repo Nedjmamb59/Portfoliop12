@@ -1,0 +1,80 @@
+/* slider */
+.slider {
+    position: relative;
+
+    &-main {
+        background: #f0ced9;
+    }
+
+    &-sub {
+        position: absolute;
+    }
+
+    &-clock {
+        width: 9.6%;
+        top: 13.65%;
+        left: 16.76%;
+        transition: transform ease .3s;
+
+        &-2 {
+            // Styles pour slider-clock-2
+            width: 9.6%;
+            top: 13.65%;
+            left: 16.76%;
+            transition: transform ease .3s;
+        }
+    }
+
+    &-dot1 {
+        width: 2.16%;
+        top: 22.17%;
+        left: 63.8%;
+        /* transform: scale(); */
+    }
+
+    &-dot2 {
+        width: 2.32%;
+        top: 22.17%;
+        left: 65.44%;
+    }
+
+    &-dot3 {
+        width: 2.88%;
+        top: 21.6%;
+        left: 67.24%;
+    }
+
+    &-tree1 {
+        width: 9.02%;
+        top: 54.34%;
+        left: 14.66%;
+        animation: pop 0.3s linear 1;
+    }
+
+    &-tree2 {
+        width: 10.63%;
+        top: 50.3%;
+        left: 71.26%;
+        z-index: 1;
+    }
+
+    &-tree3 {
+        width: 11.48%;
+        top: 40.1%;
+        left: 77.78%;
+    }
+
+    &-banner-photo {
+        width: 22.24%;
+        top: 34.86%;
+        left: 23.7%;
+        animation: bigEntrance ease 2.5s;
+    }
+
+    &-banner-text {
+        width: 16.4%;
+        top: 50.3%;
+        left: 47.12%;
+        animation: bounce ease 2.5s, FadeIn ease 2.5s;
+    }
+}
