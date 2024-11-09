@@ -289,7 +289,7 @@
 }
 
 .portfolio-item a:hover {
-    color: plum; /* Le lien reste noir même au survol */
+    color: plum; 
     
 }
 
@@ -557,7 +557,7 @@ img {
 .btn:hover {
   background-color: rgba(255, 255, 255, 0.12);
 }
-
+/*card*/
 .cards {
   display: flex;
   flex-wrap: wrap;
@@ -619,7 +619,7 @@ img {
   font-weight: 900;
 }
 
-
+ /*Loader*/
 .loading-spinner {
     height: 100vh;
     width: 100vw;
